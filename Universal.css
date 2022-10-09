@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* border: 1px black solid; */
+}
+.header {
+  position: fixed;
+  background-color: #1850ff;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.hero {
+  background-color: #1850ff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.scroll-down {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+}
+.section-heading {
+  font-size: 2rem;
+  color: #180dff;
+  text-align: center;
+  margin: 30px auto;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.5rem;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+/* layout */
+.layout {
+  display: flex;
+  width: 100vw;
+}
+/* skill template  */
+.skills-container {
+  display: flex;
+  gap: 1.5rem;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skill-outer-bar {
+  background-color: #e1ebe6;
+  border: 1px solid #000;
+  width: 350px;
+  height: 1rem;
+  border-radius: 1rem;
+}
+.skill-inner-bar {
+  height: 1rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    #fff 25%,
+    #fe828c 25%,
+    #fe828c 50%,
+    #fff 50%,
+    #fff 75%,
+    #fe828c 75%,
+    #fe828c 100%
+  );
+  background-size: 15px 15px;
+}
+.skill-svg {
+  height: 100px;
+  width: 100px;
+}
+.skill {
+  align-self: center;
+}
+.skill-name {
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+}
+.skill-card {
+  flex: 0 0 40%;
+  display: inline-block;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  margin: 16px;
+  box-shadow: 0 0 10px black;
+}
